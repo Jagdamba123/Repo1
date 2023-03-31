@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Failed_suite__Failed_suite__Failed_suite__Suite___" class="navigator-link">
+              <span class="suite-name border-failed">Failed suite [Failed suite [Failed suite [Suite]]]</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Failed_suite__Failed_suite__Failed_suite__Suite___" class="navigator-link ">
+                    <span>C:\Users\MY WORLD\eclipse-workspace\HRM\test-output\testng-failed.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Failed_suite__Failed_suite__Failed_suite__Suite___" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Failed_suite__Failed_suite__Failed_suite__Suite___" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Failed_suite__Failed_suite__Failed_suite__Suite___" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Failed_suite__Failed_suite__Failed_suite__Suite___" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Failed_suite__Failed_suite__Failed_suite__Suite___" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Failed_suite__Failed_suite__Failed_suite__Suite___" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods, 1 failed,  7 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Failed_suite__Failed_suite__Failed_suite__Suite___" class="hide-methods failed suite-Failed_suite__Failed_suite__Failed_suite__Suite___"> (hide)</a> <!-- hide-methods failed suite-Failed_suite__Failed_suite__Failed_suite__Suite___ -->
+                      <a href="#" panel-name="suite-Failed_suite__Failed_suite__Failed_suite__Suite___" class="show-methods failed suite-Failed_suite__Failed_suite__Failed_suite__Suite___"> (show)</a> <!-- show-methods failed suite-Failed_suite__Failed_suite__Failed_suite__Suite___ -->
+                    </span>
+                    <div class="method-list-content failed suite-Failed_suite__Failed_suite__Failed_suite__Suite___">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Failed_suite__Failed_suite__Failed_suite__Suite___" title="testPackage.TestNinja" class="method navigator-link" hash-for-method="firstname">firstname</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Failed_suite__Failed_suite__Failed_suite__Suite___ -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Failed_suite__Failed_suite__Failed_suite__Suite___" class="hide-methods skipped suite-Failed_suite__Failed_suite__Failed_suite__Suite___"> (hide)</a> <!-- hide-methods skipped suite-Failed_suite__Failed_suite__Failed_suite__Suite___ -->
+                      <a href="#" panel-name="suite-Failed_suite__Failed_suite__Failed_suite__Suite___" class="show-methods skipped suite-Failed_suite__Failed_suite__Failed_suite__Suite___"> (show)</a> <!-- show-methods skipped suite-Failed_suite__Failed_suite__Failed_suite__Suite___ -->
+                    </span>
+                    <div class="method-list-content skipped suite-Failed_suite__Failed_suite__Failed_suite__Suite___">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Failed_suite__Failed_suite__Failed_suite__Suite___" title="testPackage.TestNinja" class="method navigator-link" hash-for-method="checkboxno">checkboxno</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Failed_suite__Failed_suite__Failed_suite__Suite___" title="testPackage.TestNinja" class="method navigator-link" hash-for-method="checkboxyes">checkboxyes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Failed_suite__Failed_suite__Failed_suite__Suite___" title="testPackage.TestNinja" class="method navigator-link" hash-for-method="confpass">confpass</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Failed_suite__Failed_suite__Failed_suite__Suite___" title="testPackage.TestNinja" class="method navigator-link" hash-for-method="emailbox">emailbox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Failed_suite__Failed_suite__Failed_suite__Suite___" title="testPackage.TestNinja" class="method navigator-link" hash-for-method="passverify">passverify</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Failed_suite__Failed_suite__Failed_suite__Suite___" title="testPackage.TestNinja" class="method navigator-link" hash-for-method="policybox">policybox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Failed_suite__Failed_suite__Failed_suite__Suite___" title="testPackage.TestNinja" class="method navigator-link" hash-for-method="verifytelephone">verifytelephone</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Failed_suite__Failed_suite__Failed_suite__Suite___ -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Failed_suite__Failed_suite__Failed_suite__Suite___" class="panel Failed_suite__Failed_suite__Failed_suite__Suite___">
+          <div class="suite-Failed_suite__Failed_suite__Failed_suite__Suite___-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testPackage.TestNinja</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="firstname">
+                  </a> <!-- firstname -->
+                  <span class="method-name">firstname</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@name=&apos;firstname&apos;]&quot;}
+  (Session info: chrome=111.0.5563.111)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.7.0&apos;, revision: &apos;0a5b49d16f&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0967617dec0c79370f9de69d9e3afb39, findElement {using=xpath, value=//input[@name=&apos;firstname&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.111, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\MYWORL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63291}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63291/devtoo..., se:cdpVersion: 111.0.5563.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0967617dec0c79370f9de69d9e3afb39
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
+	at loginPom.TestNinjaPom.enterfirstname(TestNinjaPom.java:75)
+	at testPackage.TestNinja.firstname(TestNinja.java:60)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Failed_suite__Failed_suite__Failed_suite__Suite___-class-failed -->
+          <div class="suite-Failed_suite__Failed_suite__Failed_suite__Suite___-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testPackage.TestNinja</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkboxno">
+                  </a> <!-- checkboxno -->
+                  <span class="method-name">checkboxno</span>
+                  <div class="stack-trace">java.lang.Throwable: Method TestNinja.checkboxno()[pri:0, instance:testPackage.TestNinja@131774fe] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkboxyes">
+                  </a> <!-- checkboxyes -->
+                  <span class="method-name">checkboxyes</span>
+                  <div class="stack-trace">java.lang.Throwable: Method TestNinja.checkboxyes()[pri:0, instance:testPackage.TestNinja@131774fe] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="confpass">
+                  </a> <!-- confpass -->
+                  <span class="method-name">confpass</span>
+                  <div class="stack-trace">java.lang.Throwable: Method TestNinja.confpass()[pri:0, instance:testPackage.TestNinja@131774fe] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="emailbox">
+                  </a> <!-- emailbox -->
+                  <span class="method-name">emailbox</span>
+                  <div class="stack-trace">java.lang.Throwable: Method TestNinja.emailbox()[pri:0, instance:testPackage.TestNinja@131774fe] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="passverify">
+                  </a> <!-- passverify -->
+                  <span class="method-name">passverify</span>
+                  <div class="stack-trace">java.lang.Throwable: Method TestNinja.passverify()[pri:0, instance:testPackage.TestNinja@131774fe] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="policybox">
+                  </a> <!-- policybox -->
+                  <span class="method-name">policybox</span>
+                  <div class="stack-trace">java.lang.Throwable: Method TestNinja.policybox()[pri:0, instance:testPackage.TestNinja@131774fe] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifytelephone">
+                  </a> <!-- verifytelephone -->
+                  <span class="method-name">verifytelephone</span>
+                  <div class="stack-trace">java.lang.Throwable: Method TestNinja.verifytelephone()[pri:0, instance:testPackage.TestNinja@131774fe] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Failed_suite__Failed_suite__Failed_suite__Suite___-class-skipped -->
+        </div> <!-- panel Failed_suite__Failed_suite__Failed_suite__Suite___ -->
+        <div panel-name="test-xml-Failed_suite__Failed_suite__Failed_suite__Suite___" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\MY WORLD\eclipse-workspace\HRM\test-output\testng-failed.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Failed suite [Failed suite [Failed suite [Suite]]]&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test1(failed)(failed)(failed)&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testPackage.TestNinja&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;confpass&quot;/&gt;
+          &lt;include name=&quot;afterClass&quot;/&gt;
+          &lt;include name=&quot;emailbox&quot;/&gt;
+          &lt;include name=&quot;beforeMethod&quot;/&gt;
+          &lt;include name=&quot;aftertest&quot;/&gt;
+          &lt;include name=&quot;policybox&quot;/&gt;
+          &lt;include name=&quot;beforetest&quot;/&gt;
+          &lt;include name=&quot;verifytelephone&quot;/&gt;
+          &lt;include name=&quot;beforeClass&quot;/&gt;
+          &lt;include name=&quot;passverify&quot;/&gt;
+          &lt;include name=&quot;firstname&quot;/&gt;
+          &lt;include name=&quot;checkboxyes&quot;/&gt;
+          &lt;include name=&quot;checkboxno&quot;/&gt;
+          &lt;include name=&quot;aftermethod&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testPackage.TestNinja --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test1(failed)(failed)(failed) --&gt;
+&lt;/suite&gt; &lt;!-- Failed suite [Failed suite [Failed suite [Suite]]] --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Failed_suite__Failed_suite__Failed_suite__Suite___" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Failed suite [Failed suite [Failed suite [Suite]]]</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test1(failed)(failed)(failed) (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Failed_suite__Failed_suite__Failed_suite__Suite___" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Failed suite [Failed suite [Failed suite [Suite]]]</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Failed_suite__Failed_suite__Failed_suite__Suite___" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Failed suite [Failed suite [Failed suite [Suite]]]</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Failed_suite__Failed_suite__Failed_suite__Suite___');
+function tableData_Failed_suite__Failed_suite__Failed_suite__Suite___() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'firstname')
+data.setCell(0, 2, 'testPackage.TestNinja')
+data.setCell(0, 3, 12105);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'policybox')
+data.setCell(1, 2, 'testPackage.TestNinja')
+data.setCell(1, 3, 8);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifytelephone')
+data.setCell(2, 2, 'testPackage.TestNinja')
+data.setCell(2, 3, 1);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'checkboxno')
+data.setCell(3, 2, 'testPackage.TestNinja')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'emailbox')
+data.setCell(4, 2, 'testPackage.TestNinja')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'passverify')
+data.setCell(5, 2, 'testPackage.TestNinja')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'checkboxyes')
+data.setCell(6, 2, 'testPackage.TestNinja')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'confpass')
+data.setCell(7, 2, 'testPackage.TestNinja')
+data.setCell(7, 3, 0);
+window.suiteTableData['Failed_suite__Failed_suite__Failed_suite__Suite___']= { tableData: data, tableDiv: 'times-div-Failed_suite__Failed_suite__Failed_suite__Suite___'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 12 seconds</span>
+              <div id="times-div-Failed_suite__Failed_suite__Failed_suite__Suite___">
+              </div> <!-- times-div-Failed_suite__Failed_suite__Failed_suite__Suite___ -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Failed_suite__Failed_suite__Failed_suite__Suite___" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Failed suite [Failed suite [Failed suite [Suite]]]</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Failed_suite__Failed_suite__Failed_suite__Suite___" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">3 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testPackage.TestNinja</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">elementweb</span>
+                <br/>
+                <span class="ignored-method-name">register</span>
+                <br/>
+                <span class="ignored-method-name">checkmyaccount</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Failed_suite__Failed_suite__Failed_suite__Suite___" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testPackage.TestNinja</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforetest(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">9128 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">9272 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">firstname</span>
+                <span class="method-start">9279 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aftermethod([TestResult name=firstname status=FAILURE method=TestNinja.firstname()[pri:3, instance:testPackage.T...)</span>
+                <span class="method-start">21394 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">emailbox</span>
+                <span class="method-start">22444 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifytelephone</span>
+                <span class="method-start">22463 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">passverify</span>
+                <span class="method-start">22480 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">confpass</span>
+                <span class="method-start">22491 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkboxyes</span>
+                <span class="method-start">22505 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkboxno</span>
+                <span class="method-start">22515 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">policybox</span>
+                <span class="method-start">22526 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">22539 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">aftertest</span>
+                <span class="method-start">24016 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

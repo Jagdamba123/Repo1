@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testPackage.TestNinja">
+        <methods>
+          <include name="confpass"/>
+          <include name="afterClass"/>
+          <include name="register"/>
+          <include name="emailbox"/>
+          <include name="beforeMethod"/>
+          <include name="aftertest"/>
+          <include name="policybox"/>
+          <include name="beforetest"/>
+          <include name="verifytelephone"/>
+          <include name="beforeClass"/>
+          <include name="elementweb"/>
+          <include name="passverify"/>
+          <include name="firstname"/>
+          <include name="checkboxyes"/>
+          <include name="checkboxno"/>
+          <include name="checkmyaccount"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- testPackage.TestNinja -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
