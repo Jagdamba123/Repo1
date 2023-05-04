@@ -5,6 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import pomUtility.Wait;
+
 public class PomLoginHRM {
 	WebDriver driver;
 	@FindBy(xpath = "(//input[contains(@class,'oxd-input')])[1]")
@@ -19,11 +21,13 @@ public class PomLoginHRM {
 		PageFactory.initElements(driver, this);
 	}
 	public void sendid(String SendId) {
+		Wait.waitForElement(SendId, 10, driver);
 		ID.sendKeys(SendId);
-
+		
 	}
 
 	public void sendpass(String sendPass) {
+		Wait.waitForElement(sendPass, 10, driver);
 		pass.sendKeys(sendPass);
 	}
 

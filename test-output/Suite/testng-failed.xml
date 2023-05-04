@@ -8,6 +8,7 @@
         <methods>
           <include name="confpass"/>
           <include name="afterClass"/>
+          <include name="register"/>
           <include name="emailbox"/>
           <include name="beforeMethod"/>
           <include name="aftertest"/>
@@ -15,10 +16,12 @@
           <include name="beforetest"/>
           <include name="verifytelephone"/>
           <include name="beforeClass"/>
+          <include name="elementweb"/>
           <include name="passverify"/>
           <include name="firstname"/>
           <include name="checkboxyes"/>
           <include name="checkboxno"/>
+          <include name="checkmyaccount"/>
           <include name="aftermethod"/>
         </methods>
       </class> <!-- testPackage.TestNinja -->
