@@ -26,6 +26,7 @@ public class StaticBrowser {
 		driver.manage().window().maximize();
 		driver.get(url);
 		return driver;
+		
 	}
 
 }
